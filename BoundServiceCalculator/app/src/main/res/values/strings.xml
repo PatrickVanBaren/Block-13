@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bound Service Calculator</string>
+    <string name="insert_the_number">Insert the number</string>
+    <string name="sum">Sum</string>
+    <string name="diff">diff</string>
+    <string name="result_n_a">Result: N/A</string>
+</resources>
