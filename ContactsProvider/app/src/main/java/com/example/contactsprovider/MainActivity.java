@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mRecyclerView = new RecyclerView(this);
+        mRecyclerView = findViewById(R.id.view_recycler);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         ActivityCompat.requestPermissions(this, new String[] { Manifest.permission.READ_CONTACTS}, 0);
         Uri uri = ContactsContract.CommonDataKinds.Phone.CONTENT_URI;
