@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
             public ViewHolder(@NonNull View itemView) {
                 super(itemView);
-                textView = findViewById(android.R.id.text1);
+                textView = itemView.findViewById(android.R.id.text1);
             }
         }
     }
